@@ -1,0 +1,30 @@
+{
+  "name": "M6-D2-PostgreSQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crankobil/M6-D2-PostgreSQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crankobil/M6-D2-PostgreSQL/issues"
+  },
+  "homepage": "https://github.com/Crankobil/M6-D2-PostgreSQL#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1"
+  }
+}
